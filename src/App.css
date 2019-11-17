@@ -1,6 +1,9 @@
 .App {
   text-align: center;
   background: lightslategray;
+  display: block;
+  height: 100%;
+  padding-top: 40px;
 }
 
 .App-logo {
@@ -20,4 +23,8 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+h1 {
+font-family: 'Share Tech Mono', monospace;
 }

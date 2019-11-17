@@ -31,6 +31,7 @@ handleChange = (e) => {
 
   return (
     <div className="App">
+      <h1>Our lovely robots</h1>
       <SearchField onChange={this.handleChange} />
 
       <CardList users={usersfiltered}/>
